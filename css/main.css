@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body {
+    background-color: #002b36;
+}
+
+.header-title {
+    color : #dc322f;
+    text-align:center;
+    font-family:monospace;    
+    margin-bottom:7px;
+}
+
+.header-caption {
+    color :#657b83;
+    text-align: center;
+    font-family:monospace;
+    font-size:12px;
+    margin-top :0;
+    text-align: center;
+}
+
+p {
+    color :#93a1a1;
+}
+
+.about {
+    font-family : monospace;
+}
+
+.avatar-pic {
+    height: 133px;
+    width:200px;    
+    margin: 0 auto 0 auto;
+}
+
+.circle {
+    overflow:hidden;
+    -moz-border-radius:50px;
+    border-radius:50%;
+    width:150px;
+    height:133px;
+    margin: 0 auto 0 auto;
+}
+
+.quote {
+    border-left: 2px solid #dc322f;
+    padding: 9px;
+    margin-left: 7px;
+    padding-left: 37px;
+    font-family:monospace;  
+}
+
+.speak-up {
+    color : #b58900;
+}
+
+hr {
+    border-color : #93a1a1;
+    width:50%;
+}
+
+.side-menu {
+    margin-bottom: 1em;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+}
+.side-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}		
+.side-menu li {
+    margin: 0;
+    width: auto;
+}
+.side-menu li a {
+    display: block;
+    padding: 3px 0px 3px 0.5em;
+    color:  #2aa198;
+    text-decoration: none;
+    width: auto;
+}
+.side-menu li a:hover {
+    background-color: #dc322f;
+    color: #fff;
+    width:100%;
+}
+
+.social-footer {
+    text-align: center;
+}
+
+.social-icon {
+    padding-left : 7px;
+    padding-right: 7px;
+}
+
+.footer-notes {
+    text-align:center;
+    font-family:monospace;
+    font-size:10px;
+    margin: 0 auto 0 auto;
+}
